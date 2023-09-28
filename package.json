@@ -1,0 +1,48 @@
+{
+  "name": "micro-atom",
+  "version": "1.0.0",
+  "author": "shewulong",
+  "license": "MIT",
+  "description": "Use responsive data in React",
+  "keywords": [],
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "repository": "https://github.com/wulongshe/micro-atom.git",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format cjs,esm --minify --clean",
+    "test": "vitest run"
+  },
+  "files": [
+    "dist",
+    "!dist/index.d.cts"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/lodash": "^4.14.197",
+    "@types/node": "^20.5.6",
+    "@types/react": "^18.2.23",
+    "react-test-renderer": "^18.2.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
