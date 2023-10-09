@@ -8,7 +8,6 @@ export function useNextTick() {
     stack.forEach((fn) => fn())
   })
 
-
   function nextTick(fn: () => void): void
   function nextTick(): Promise<void>
   function nextTick(fn?: () => void) {
