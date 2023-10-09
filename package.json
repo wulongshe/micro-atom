@@ -1,6 +1,6 @@
 {
-  "name": "@shewulong/micro-hooks",
-  "version": "1.1.0",
+  "name": "micro-hooks-react",
+  "version": "1.0.0",
   "author": "shewulong",
   "license": "MIT",
   "description": "react hooks",

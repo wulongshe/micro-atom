@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install micro-atom
+npm install micro-hooks-react
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install micro-atom
 ### useAtom
 
 ```tsx
-import { useAtom } from 'micro-atom';
+import { useAtom } from 'micro-hooks-react';
 
 export default function Counter() {
   const state = useAtom({ count: 0 });
@@ -34,7 +34,7 @@ export default function Counter() {
 ### useNextTick
 
 ```tsx
-import { useNextTick } from 'micro-atom';
+import { useNextTick } from 'micro-hooks-react';
 import { useState } from 'react';
 
 export default function Counter() {
