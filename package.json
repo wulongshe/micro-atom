@@ -1,10 +1,10 @@
 {
-  "name": "micro-atom",
-  "version": "1.0.1",
+  "name": "@shewulong/micro-hooks",
+  "version": "1.1.0",
   "author": "shewulong",
   "license": "MIT",
-  "description": "Use responsive data in React",
-  "keywords": [],
+  "description": "react hooks",
+  "keywords": ["hooks"],
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -16,7 +16,7 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "repository": "https://github.com/wulongshe/micro-atom.git",
+  "repository": "https://github.com/wulongshe/micro-hooks.git",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
