@@ -1,2 +1,2 @@
-export * from './useAtom'
-export * from './useNextTick'
+export * from './useAtom';
+export * from './useNextTick';
