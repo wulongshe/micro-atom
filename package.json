@@ -1,6 +1,6 @@
 {
   "name": "micro-hooks-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "shewulong",
   "license": "MIT",
   "description": "react hooks",
@@ -15,7 +15,10 @@
     ".": {
       "require": "./dist/index.cjs",
       "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": {
+        "import": "./dist/index.d.ts",
+        "require": "./dist/index.cts"
+      }
     }
   },
   "repository": "https://github.com/wulongshe/micro-hooks.git",
@@ -28,8 +31,7 @@
     "prettier": "prettier -c --write \"src/**/*\" \"test/**/*\""
   },
   "files": [
-    "dist",
-    "!dist/index.d.cts"
+    "dist"
   ],
   "engines": {
     "node": ">=16.0.0"
